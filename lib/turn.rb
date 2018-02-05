@@ -26,8 +26,8 @@ def input_to_index(entry)
   index = entry.to_i - 1 
 end
 
-def move(board, index, turn="X")
-  board[index] = turn
+def move(board, index, input="X")
+  board[index] = input
 end
 
 def turn(board)
